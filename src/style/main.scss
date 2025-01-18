@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+  font-family: "Sevillana", serif;
+}
+
+.container {
+  background-image: url('../assets/palacio.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.imagem {
+  height: 70vh;
+  margin-top: 1rem;
+  animation: float 4s ease-in-out infinite;
+
+  @keyframes float {
+
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+}
+
+.change-image {
+  width: 20vw;
+  background: linear-gradient(90deg, #48c6ef 0%, #6f86d6 100%);
+  font-size: 1.5rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+}
