@@ -14,7 +14,7 @@ Este é um projeto simples em React que permite ao usuário alternar entre a ima
 
 1. Clone o repositório:
   ```sh
-  git clone <URL_DO_REPOSITORIO>
+  git clone https://github.com/MonicaAlvesP/genio-usestate.git
   cd lampada-aladin
   ```
 
