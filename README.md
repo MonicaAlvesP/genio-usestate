@@ -1,8 +1,43 @@
-# React + Vite
+# 🧞‍♂️ Lâmpada do Aladim
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto simples em React que permite ao usuário alternar entre a imagem da lâmpada do Aladim e o gênio. Ultilizamos o hook useState para realizar a troca entre as imagem do genio e da lampada.
 
-Currently, two official plugins are available:
+## 🛠️ Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚛️ React
+- ⚡ Vite
+- 🎨 Sass
+
+## 🚀 Como Executar
+
+### 📥 Instalação
+
+1. Clone o repositório:
+  ```sh
+  git clone <URL_DO_REPOSITORIO>
+  cd lampada-aladin
+  ```
+
+2. Instale as dependências:
+  ```sh
+  npm install
+  # ou
+  yarn install
+  ```
+
+### ▶️ Executando o Projeto
+
+Para iniciar o servidor de desenvolvimento, execute:
+```sh
+npm run dev
+# ou
+yarn dev
+```
+
+## ✨ Funcionalidades
+
+- Alternar entre a imagem da lâmpada do Aladim e o gênio ao clicar no botão.
+
+#### Confira abaixo minha aplicação em funcionamento:
+
+![Minha Aplicação em Ação](./src/assets/Screenity%20video%20-%20Jan%2018,%202025.gif)

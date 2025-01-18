@@ -53,3 +53,15 @@
   border: none;
   border-radius: 20px;
 }
+
+@media (max-width: 768px) {
+  .imagem {
+    height: 40vh;
+    margin-top: 2rem;
+  }
+
+  .change-image {
+    width: 45vw;
+    height: 5.5vh;
+  }
+}
